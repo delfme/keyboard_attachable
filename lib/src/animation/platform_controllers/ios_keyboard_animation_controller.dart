@@ -67,7 +67,7 @@ class IOSKeyboardAnimationController implements KeyboardAnimationController {
       TweenSequenceItem<double>(
         tween: Tween<double>(begin: 0.498510223492776, end: 1)
             .chain(CurveTween(curve: Curves.linear)),
-        weight: 90.0,
+        weight: 10.0,
       ),
     ],
   ).animate(CurvedAnimation(parent: _controller, curve: Interval(0, 1.0)));
